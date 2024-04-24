@@ -16,14 +16,14 @@
 }
 
 .header {
-  background-image: url(/assets/img/hero-image.png);
+  background-image: url(.././img/hero-image.png);
   background-position: center;
   background-size: cover;
   height: 60vh;
 }
 
 .topbar {
-  padding: 4rem 1rem 0 1rem;
+  padding-top: 50px;
   display: flex;
   justify-content: space-between;
   align-items: center;
