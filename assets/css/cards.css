@@ -50,6 +50,7 @@
   margin: 0 auto;
   display: block;
   margin-top: 2rem;
+  box-shadow: -1px 1px 25px -3px rgb(201, 128, 55);
 }
 
 /* MEDIA QUERYS */

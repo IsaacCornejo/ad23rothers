@@ -1,24 +1,40 @@
 .contact-us {
-    margin-top: 3rem;
-    text-align: center;
+  margin-top: 3rem;
+  text-align: center;
 }
 
 .contact-us > .container {
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .contact-us__card {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .card__gif {
-    width: 100%;
+  width: 100%;
 }
 
 .card__icon {
-  width: 2rem;
+  width: 40px;
+}
+
+@media screen and (min-width: 0) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+  .contact-us > .container {
+    margin-top: 2rem;
+    flex-direction: row;
+  }
+}
+
+@media screen and (min-width: 1200px) {
 }

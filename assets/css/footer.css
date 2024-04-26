@@ -1,0 +1,28 @@
+.footer {
+  background-color: #eba55e;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: center;
+  position: relative;
+  bottom: -17px;
+}
+
+.footer__text {
+  padding: 1rem;
+  color: white;
+}
+
+@media screen and (min-width: 0) {
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (min-width: 992px) {
+  .footer__text {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+}

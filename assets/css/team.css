@@ -1,19 +1,22 @@
 .team {
-    text-align: center;
-    margin-top: 2rem;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 .team > .container {
-    margin-top: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
 }
 
 .member__img {
-    width: 200px;
-    border-radius: 100%;
-    border-top: 4px dashed salmon;
-    border-right: 4px solid salmon;
-    border-bottom: 4px dashed salmon;
-    border-left: 4px solid salmon;
+  width: 150px;
+  border-radius: 100%;
+  border-top: 4px dashed salmon;
+  border-right: 4px solid salmon;
+  border-bottom: 4px dashed salmon;
+  border-left: 4px solid salmon;
 }
 
 /* MEDIA QUERYS */
@@ -25,9 +28,7 @@
 }
 
 @media screen and (min-width: 992px) {
-
 }
 
 @media screen and (min-width: 1250px) {
- 
 }
