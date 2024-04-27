@@ -1,6 +1,8 @@
 .team {
-  text-align: center;
   margin-top: 2rem;
+  padding: 2rem;
+  text-align: center;
+  background-image: url(.././img/background-orange-3.jpg);
 }
 
 .team > .container {
@@ -13,10 +15,10 @@
 .member__img {
   width: 150px;
   border-radius: 100%;
-  border-top: 4px dashed salmon;
-  border-right: 4px solid salmon;
-  border-bottom: 4px dashed salmon;
-  border-left: 4px solid salmon;
+  border-top: 4px dashed slateblue;
+  border-right: 4px solid slateblue;
+  border-bottom: 4px dashed slateblue;
+  border-left: 4px solid slateblue;
 }
 
 /* MEDIA QUERYS */

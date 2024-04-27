@@ -1,6 +1,8 @@
 .contact {
   margin-top: 3rem;
+  padding: 2rem;
   text-align: center;
+  background-image: url(.././img/background-orange-3.jpg);
 }
 
 .contact > .container {
@@ -16,11 +18,13 @@
 .social__section > .container {
   display: flex;
   justify-content: center;
+  gap: 1rem;
 }
 
 .info__section > .container {
   display: flex;
   justify-content: center;
+  gap: 1rem;
 }
 
 .social-icon {

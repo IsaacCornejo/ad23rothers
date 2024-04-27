@@ -79,6 +79,7 @@
 .header-btnContact {
   color: white;
   font-size: 1.5rem;
+  text-decoration: none;
   background-color: transparent;
   border: none;
   border: 1px solid white;
