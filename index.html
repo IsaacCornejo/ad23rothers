@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="./assets/css/contact-us.css">
   <link rel="stylesheet" href="./assets/css/contact.css">
   <link rel="stylesheet" href="./assets/css/footer.css">
+  <link rel="stylesheet" href="./assets/css/modal.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
@@ -53,7 +54,7 @@
           <a href="">
             <li class="menu__element">Nosotros </li>
           </a>
-          <a href="">
+          <a href="#services">
             <li class="menu__element">Servicios</li>
           </a>
           <a href="">
@@ -63,7 +64,7 @@
           <a href="">
             <li class="menu__element">Bolsa de trabajo</li>
           </a>
-          <a href="">
+          <a href="#contact">
             <li class="menu__element">Contacto</li>
           </a>
         </ul>
@@ -158,7 +159,7 @@
 
     </section>
 
-    <section class="services">
+    <section id="services" class="services">
 
       <h2>Servicios</h2>
 
@@ -170,7 +171,7 @@
           <h3 class="service__title">
             Administracion de Redes Sociales
           </h3>
-          <button class="service__btn">
+          <button id="serviceBtn1" class="service__btn">
             Ver más
           </button>
 
@@ -182,7 +183,7 @@
           <h3 class="service__title">
             Aplicaciones Web
           </h3>
-          <button class="service__btn">
+          <button id="serviceBtn2" class="service__btn">
             Ver más
           </button>
 
@@ -195,7 +196,7 @@
             Creación de
             Logotipos
           </h3>
-          <button class="service__btn">
+          <button id="serviceBtn3" class="service__btn">
             Ver más
           </button>
 
@@ -208,7 +209,7 @@
             Creación de
             Paginas Web
           </h3>
-          <button class="service__btn">
+          <button class="service__btn" id="serviceBtn4">
             Ver más
           </button>
 
@@ -221,7 +222,7 @@
             Edición de
             Foto y Video
           </h3>
-          <button class="service__btn">
+          <button class="service__btn" id="serviceBtn5">
             Ver más
           </button>
 
@@ -234,7 +235,7 @@
             Publicidad en
             Redes Sociales
           </h3>
-          <button class="service__btn">
+          <button class="service__btn" id="serviceBtn6">
             Ver más
           </button>
 
@@ -246,7 +247,7 @@
           <h3 class="service__title">
             Marketing Digital
           </h3>
-          <button class="service__btn">
+          <button class="service__btn" id="serviceBtn7">
             Ver más
           </button>
 
@@ -258,7 +259,7 @@
           <h3 class="service__title">
             Fotos Publicitarias
           </h3>
-          <button class="service__btn">
+          <button class="service__btn" id="serviceBtn8">
             Ver más
           </button>
 
@@ -270,7 +271,7 @@
           <h3 class="service__title">
             Tarjeta o Menú Digital
           </h3>
-          <button class="service__btn">
+          <button class="service__btn" id="serviceBtn9">
             Ver más
           </button>
 
@@ -282,7 +283,7 @@
           <h3 class="service__title">
             Asesoría en Marketing Digital
           </h3>
-          <button class="service__btn">
+          <button class="service__btn" id="serviceBtn10">
             Ver más
           </button>
 
@@ -373,7 +374,7 @@
 
     </section>
 
-    <section class="contact">
+    <section id="contact" class="contact">
       <div class="container">
 
         <article class="us__section">
@@ -387,17 +388,16 @@
         <article class="social__section">
           <h3>Redes Sociales</h3>
           <div class="container">
-            <a href="https://www.google.com/url?q=https%3A%2F%2Fwa.link%2F3rypy7&sa=D&sntz=1&usg=AOvVaw3IeiL2ko1tu7O-EaqI75sa"
-              target="_blank">
+            <a href="https://www.youtube.com/@ad23rothers" target="_blank">
               <img class="social-icon" src="./assets/img/youtube.png" alt="youtube">
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/ad23rothers/" target="_blank">
               <img class="social-icon" src="./assets/img/instagram.png" alt="instagram">
             </a>
-            <a href="">
+            <a href="https://www.facebook.com/profile.php?id=61550951076264" target="_blank">
               <img class="social-icon" src="./assets/img/facebook.png" alt="facebook">
             </a>
-            <a href="">
+            <a href="https://www.tiktok.com/@ad23rothers" target="_blank">
               <img class="social-icon" src="./assets/img/tik-tok.png" alt="tik tok">
             </a>
             <a href="https://www.google.com/url?q=https%3A%2F%2Fwa.link%2F3rypy7&sa=D&sntz=1&usg=AOvVaw3IeiL2ko1tu7O-EaqI75sa"
@@ -421,7 +421,7 @@
             <a href="mailto:ad23rothers@outlook.com">
               <img class="social-icon" src="./assets/img/gmail.png" alt="email">
             </a>
-            <a href="">
+            <a href="https://maps.app.goo.gl/3PQaCqTHyDYtDNJR6" target="_blank">
               <img class="social-icon" src="./assets/img/map.png" alt="mapa">
             </a>
           </div>
@@ -429,6 +429,11 @@
 
       </div>
     </section>
+
+
+    <div id="ventanaInfo" class="ventana__info ocultar__ventana">
+
+    </div>
 
   </main>
 
@@ -438,6 +443,7 @@
     </p>
   </footer>
 
+  <script src="./assets/scripts/modal.js"></script>
 </body>
 
 </html>
