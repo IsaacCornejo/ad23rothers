@@ -47,13 +47,10 @@
 }
 
 .nav__menu > a {
-  text-decoration: none;
-  color: white;
   margin-right: 1rem;
-}
-
-.menu__btnOpen {
-  display: none;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
 }
 
 .action__call {
@@ -92,7 +89,7 @@
 @media screen and (min-width: 0) {
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1038px) {
   .operating__p {
     font-size: 0.9rem;
   }
@@ -117,9 +114,14 @@
   }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1038px) {
   .nav__menu {
     font-size: 1.3rem;
+  }
+
+  .menu__btnOpen,
+  #menuClose {
+    display: none;
   }
 }
 
@@ -145,7 +147,7 @@
 
 .nav--mobile {
   display: block;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   height: 100%;
@@ -169,4 +171,9 @@
 
 .no-mostrar {
   display: none;
+}
+
+#menuClose {
+  font-size: 1.3rem;
+  cursor: pointer;
 }
