@@ -2,7 +2,8 @@
   padding: 1rem;
   text-align: center;
   background-color: lightgray;
-  background-image: url(/assets/img/background-orange.jpg);
+  background-image: url(.././img/background-orange.jpg);
+
   width: 300px;
   height: 300px;
   position: fixed;

@@ -96,9 +96,11 @@
   .operating__p {
     font-size: 0.9rem;
   }
+
   .nav__menu {
     display: none;
   }
+
   .menu__btnOpen {
     display: block;
     color: white;
@@ -137,4 +139,34 @@
   .header__text {
     font-size: 2rem;
   }
+}
+
+/* ESTILOS PARA MENU MOBILE */
+
+.nav--mobile {
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav__menu--mobile {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 1rem;
+}
+
+.mostrar {
+  display: block;
+}
+
+.no-mostrar {
+  display: none;
 }
