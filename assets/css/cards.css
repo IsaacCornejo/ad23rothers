@@ -18,6 +18,7 @@
   box-shadow: -1px 1px 25px -3px rgb(201, 128, 55);
   width: 80%;
   padding: 1rem;
+  z-index: 0;
 }
 
 .card__title {
